@@ -237,7 +237,9 @@
 								</div>
 								<div class="timeline-body">
 									<p>
-										Nada and Hadid met in office at Sudirman, Central Jakarta. At that time, Nada was a new employees and Hadid was her senior. They were in the same project and from that they often working together. In addition, Nada and Hadid studied at the same place and major in Politeknik Negeri Bandung.
+										Nada and Hadid met in office at Sudirman, Central Jakarta. At that time, Nada was a new employees and Hadid was her senior. 
+										They were in the same project and since that they often working together. 
+										In addition, apparently Nada and Hadid studied at the same university and same major in Politeknik Negeri Bandung.
 									</p>
 								</div>
 							</div>
@@ -250,7 +252,13 @@
 									<span class="date">May 09, 2020</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>
+										Since they lost contact for some times, they are back in touch starting via instagram in pandemic time!
+										After that they had an intense relationship, texting overnight, had some video calls.
+										Initially Hadid want to meet Nada first, before he decide to convey his feelings. But because of the pandemic,
+										it couldn't be done. Worried if he waited too long, the chance would be lost, Hadid conveyed his feelings on Nada.
+										And Nada said Yes! Yeayy
+									</p>
 								</div>
 							</div>
 						</li>
@@ -262,7 +270,11 @@
 									<span class="date">December 12, 2020</span>
 								</div>
 								<div class="timeline-body">
-									<p>Even though their relationship was brief but they both were sure to continue to a more serious level. So Hadid decided to came to Nada`s parents for ask permissions to marry Nada. They finally got engage on December 12, 2020.</p>
+									<p>
+										Even though their relationship was brief but they both were sure to continue to a more serious level. 
+										So Hadid decided to came to Nada`s parents for ask permissions to marry Nada. 
+										They finally got engage on December 12, 2020.
+									</p>
 								</div>
 							</div>
 						</li>
@@ -271,10 +283,10 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">The Big Day</h3>
-									<span class="date">November 21, 2021</span>
+									<span class="date">November 13, 2021</span>
 								</div>
 								<div class="timeline-body">
-									<p>They choose a beautiful date 21-11-21 for their wedding. See you around!!</p>
+									<p>They choose a beautiful date 13-11-21 for their wedding. See you around!!</p>
 								</div>
 							</div>
 						</li>
@@ -381,6 +393,47 @@
 	<div id="fh5co-testimonial">
 		<div class="container">
 			<div class="row">
+				
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Send us your greetings...</h2>
+					</div>
+				</div>
+				<div class="row animate-box">
+					<div class="col-md-10 col-md-offset-1">
+						<form class="form-inline">
+							<div class="row col-md-12 col-sm-12">
+								<div class="form-group col-md-6 col-sm-6">
+									<label for="invit-name" class="sr-only">Name</label>
+									<input type="Name" class="form-control" id="invit-name" placeholder="Your Name">
+								</div>
+								<div class="form-group col-md-6 col-sm-6">
+									<label for="invit-from" class="sr-only">Invitation From</label>
+									<!-- <input type="From" class="form-control" id="invit-from" placeholder="Where is your invitation come from?"> -->
+									
+									<select class="form-control custom-select my-1 mr-sm-2" id="invit-from">
+										<option selected>Choose...</option>
+										<option value="1">One</option>
+										<option value="2">Two</option>
+										<option value="3">Three</option>
+									</select>
+								</div>
+							</div>
+							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
+								<div class="form-group">
+									<label for="greeting" class="sr-only">Greetings</label>
+									<textarea type="greeting" class="form-control" id="greeting" 
+										placeholder="I'm happy to see you standing there bud" rows="4" cols="80">
+									</textarea>
+								</div>
+							</div>
+							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
+								<button type="submit" class="btn btn-default btn-block">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<span>Best Wishes</span>
@@ -432,7 +485,44 @@
 		</div>
 	</div>
 
-	<!-- <div id="fh5co-services" class="fh5co-section-gray">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
+		<audio autoplay loop>
+			<source src="<?= asset_url() ?>/media/sample.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio> 
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Are You Attending?</h2>
+					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-10 col-md-offset-1">
+					<form class="form-inline">
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name</label>
+								<input type="name" class="form-control" id="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
 			<div class="row animate-box">
@@ -486,46 +576,9 @@
 
 			
 		</div>
-	</div> -->
-
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
-		<audio autoplay loop>
-			<source src="<?= asset_url() ?>/media/sample.ogg" type="audio/ogg">
-			Your browser does not support the audio element.
-		</audio> 
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
 	</div>
 
-	<!-- <footer id="fh5co-footer" role="contentinfo">
+	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 
 			<div class="row copyright">
@@ -535,18 +588,15 @@
 						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
+						<small>
+							Developed by Nada & Hadid "Bersatu tak bisa dikalahkan"
+						</small>
 					</p>
 				</div>
 			</div>
 
 		</div>
-	</footer> -->
+	</footer>
 	</div>
 
 	<div class="gototop js-top">
