@@ -403,19 +403,19 @@
 					<div class="col-md-10 col-md-offset-1">
 						<form class="form-inline">
 							<div class="row col-md-12 col-sm-12">
-								<div class="form-group col-md-6 col-sm-6">
+								<div class="form-group col-md-6 col-sm-6" style="padding-left: 0px">
 									<label for="invit-name" class="sr-only">Name</label>
-									<input type="Name" class="form-control" id="invit-name" placeholder="Your Name">
+									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Your Name">
 								</div>
-								<div class="form-group col-md-6 col-sm-6">
+								<div class="form-group col-md-6 col-sm-6" style="text-align: right">
 									<label for="invit-from" class="sr-only">Invitation From</label>
 									<!-- <input type="From" class="form-control" id="invit-from" placeholder="Where is your invitation come from?"> -->
 									
-									<select class="form-control custom-select my-1 mr-sm-2" id="invit-from">
-										<option selected>Choose...</option>
-										<option value="1">One</option>
-										<option value="2">Two</option>
-										<option value="3">Three</option>
+									<select class="form-control custom-select my-1 mr-sm-2" id="invit-from" style="width: 100%">
+										<option value="1" selected>I will attend to see you!</option>
+										<option value="0">Sorry, maybe I won't be there, but my prayers always for you</option>
+										<option value="2">Hmmm let we see later...</option>
+										<option value="3"></option>
 									</select>
 								</div>
 							</div>
@@ -423,16 +423,17 @@
 								<div class="form-group">
 									<label for="greeting" class="sr-only">Greetings</label>
 									<textarea type="greeting" class="form-control" id="greeting" 
-										placeholder="I'm happy to see you standing there bud" rows="4" cols="80">
-									</textarea>
+										placeholder="I'm happy to see you standing there bud" rows="4" cols="80"></textarea>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
-								<button type="submit" class="btn btn-default btn-block">Submit</button>
+								<button type="submit" class="btn btn-primary btn-block">Submit</button>
 							</div>
 						</form>
 					</div>
 				</div>
+
+				<hr style="border-top: 3px solid #eeeeee"/>
 
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
