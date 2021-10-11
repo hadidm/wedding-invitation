@@ -25,6 +25,6 @@ class Home extends CI_Controller {
 
 	public function testimonial()
 	{
-		die('YUHU');
+		die($this->input->post('attendance'));
 	}
 }

@@ -408,10 +408,9 @@
 									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Your Name">
 								</div>
 								<div class="form-group col-md-6 col-sm-6" style="text-align: right">
-									<label for="invit-from" class="sr-only">Invitation From</label>
-									<!-- <input type="From" class="form-control" id="invit-from" placeholder="Where is your invitation come from?"> -->
+									<label for="invit-attend" class="sr-only">Invitation From</label>
 									
-									<select class="form-control custom-select my-1 mr-sm-2" id="invit-from" style="width: 100%">
+									<select class="form-control custom-select my-1 mr-sm-2" id="invit-attend" style="width: 100%">
 										<option value="1" selected>I will attend to see you!</option>
 										<option value="0">Sorry, maybe I won't be there, but my prayers always for you</option>
 										<option value="2">Hmmm let we see later...</option>
@@ -422,12 +421,11 @@
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
 								<div class="form-group">
 									<label for="greeting" class="sr-only">Greetings</label>
-									<textarea type="greeting" class="form-control" id="greeting" 
+									<textarea type="greeting" class="form-control" id="invit-testi" 
 										placeholder="I'm happy to see you standing there bud" rows="4" cols="80"></textarea>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
-								<!-- <button id="btn_testi" onclick="post_testi();" class="btn btn-primary btn-block">Submit</button> -->
 								<a href="#" id="btn_testi" class="btn btn-primary btn-block">Submit</a>
 							</div>
 						</form>
@@ -636,21 +634,24 @@
 		$(document).ready(function () {
 			$("#btn_testi").click(function(e) {
 				e.preventDefault();
-				post_testi();
+
+				$.ajax({
+					type: "POST",
+					url: "<?= base_url("/home/testimonial") ?>",
+					headers: {
+						'Access-Control-Allow-Origin': '*'
+					},
+					data: { 
+						name: $('#invit-name').val(),
+						attendance: $('#invit-attend').val(),
+						testi: $("#invit-testi").val()
+					},
+					success: function(data) {
+						alert(data)
+					}
+				});
 			});
 		});
-
-		function post_testi() {
-			console.log('post testi');
-			$.ajax({
-				type: "POST",
-				url: "<?= base_url("/wedding/testimonial") ?>",
-				data: { test: 'test' },
-				success: function(data) {
-					alert(data)
-				}
-			});
-		}
 	</script>
 
 	</body>
