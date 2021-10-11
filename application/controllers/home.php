@@ -18,6 +18,14 @@ class Home extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	
+	function __construct()
+	{
+		parent::__construct();
+        $this->load->model('HomeModel', 'model');
+	}
+
 	public function index()
 	{
 		$this->load->view('home');
@@ -25,6 +33,19 @@ class Home extends CI_Controller {
 
 	public function testimonial()
 	{
-		die($this->input->post('attendance'));
+		$data = [
+			'guest_name' => $this->input->post('name'),
+			'attend_status' => $this->input->post('attendance'),
+			'testimoni' => $this->input->post('testi'),
+		];
+
+		$this->model->insert('testimonial', $data);
+
+		$resp = [
+			"success" => true,
+			"data" => $data
+		];
+
+		die(json_encode($resp));
 	}
 }

@@ -411,10 +411,9 @@
 									<label for="invit-attend" class="sr-only">Invitation From</label>
 									
 									<select class="form-control custom-select my-1 mr-sm-2" id="invit-attend" style="width: 100%">
-										<option value="1" selected>I will attend to see you!</option>
-										<option value="0">Sorry, maybe I won't be there, but my prayers always for you</option>
-										<option value="2">Hmmm let we see later...</option>
-										<option value="3"></option>
+										<option value="attend" selected>I will attend to see you!</option>
+										<option value="noattend">Sorry, maybe I won't be there, but my prayers always for you</option>
+										<option value="notsure">Hmmm let we see later...</option>
 									</select>
 								</div>
 							</div>
@@ -638,16 +637,20 @@
 				$.ajax({
 					type: "POST",
 					url: "<?= base_url("/home/testimonial") ?>",
-					headers: {
-						'Access-Control-Allow-Origin': '*'
-					},
 					data: { 
 						name: $('#invit-name').val(),
 						attendance: $('#invit-attend').val(),
 						testi: $("#invit-testi").val()
 					},
 					success: function(data) {
-						alert(data)
+						data = JSON.parse(data)
+						if (data.success) {
+							let newItem = '<div><div class="testimony-slide active text-center"><span>'+ data.data.guest_name +'</span><blockquote><p>"'+ data.data.testimoni +'"</p></blockquote></div></div>'
+
+							$('.owl-carousel-fullwidth')
+								.trigger('add.owl.carousel', [newItem, 0])
+								.trigger('refresh.owl.carousel');
+						}
 					}
 				});
 			});
