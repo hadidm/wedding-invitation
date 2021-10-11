@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class WeddingController extends CI_Controller {
+class Home extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -21,5 +21,10 @@ class WeddingController extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('home');
+	}
+
+	public function testimonial()
+	{
+		die('YUHU');
 	}
 }

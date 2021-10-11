@@ -427,7 +427,8 @@
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
-								<button type="submit" class="btn btn-primary btn-block">Submit</button>
+								<!-- <button id="btn_testi" onclick="post_testi();" class="btn btn-primary btn-block">Submit</button> -->
+								<a href="#" id="btn_testi" class="btn btn-primary btn-block">Submit</a>
 							</div>
 						</form>
 					</div>
@@ -447,10 +448,7 @@
 							<div class="owl-carousel-fullwidth">
 								<div class="item">
 									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="<?= asset_url() ?>/images/couple-1.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<span>John Doe</span>
 										<blockquote>
 											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
 										</blockquote>
@@ -458,23 +456,17 @@
 								</div>
 								<div class="item">
 									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="<?= asset_url() ?>/images/couple-2.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<span>John Doe</span>
 										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
 										</blockquote>
 									</div>
 								</div>
 								<div class="item">
 									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="<?= asset_url() ?>/images/couple-3.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+										<span>John Doe</span>
 										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
+											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
 										</blockquote>
 									</div>
 								</div>
@@ -638,6 +630,27 @@
 			hours: 10,
 			enableUtc: false
 		});
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$("#btn_testi").click(function(e) {
+				e.preventDefault();
+				post_testi();
+			});
+		});
+
+		function post_testi() {
+			console.log('post testi');
+			$.ajax({
+				type: "POST",
+				url: "<?= base_url("/wedding/testimonial") ?>",
+				data: { test: 'test' },
+				success: function(data) {
+					alert(data)
+				}
+			});
+		}
 	</script>
 
 	</body>
