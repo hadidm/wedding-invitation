@@ -650,6 +650,8 @@
 							$('.owl-carousel-fullwidth')
 								.trigger('add.owl.carousel', [newItem, 0])
 								.trigger('refresh.owl.carousel');
+						} else {
+							alert(data.message)
 						}
 					}
 				});

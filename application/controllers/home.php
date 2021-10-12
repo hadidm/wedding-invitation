@@ -33,19 +33,29 @@ class Home extends CI_Controller {
 
 	public function testimonial()
 	{
-		$data = [
-			'guest_name' => $this->input->post('name'),
-			'attend_status' => $this->input->post('attendance'),
-			'testimoni' => $this->input->post('testi'),
-		];
-
-		$this->model->insert('testimonial', $data);
-
-		$resp = [
-			"success" => true,
-			"data" => $data
-		];
-
-		die(json_encode($resp));
+		try {
+			$data = [
+				'guest_name' => $this->input->post('name'),
+				'attend_status' => $this->input->post('attendance'),
+				'testimoni' => $this->input->post('testi'),
+			];
+	
+			$this->model->insert('testimonial', $data);
+	
+			$resp = [
+				"success" => true,
+				"data" => $data
+			];
+	
+			die(json_encode($resp));
+		} catch (Exception $e) {
+			$resp = [
+				"success" => true,
+				"data" => [],
+				"message" => "Posting failed"
+			];
+	
+			die(json_encode($resp));
+		}
 	}
 }
