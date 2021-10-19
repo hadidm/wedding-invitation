@@ -179,17 +179,17 @@
 									<h3>AKAD</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>07:00 - 09:00</span>
+										<span>16:00 - 17:30</span>
 										
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Sunday</span>
-										<span>November 21, 2021</span>
+										<span>Friday</span>
+										<span>November 12, 2021</span>
 									</div>
-									<p><b><i>GEDUNG PUSPA PESONA </i></b><br>
+									<p><b><i>Mesjid At-Tin </i></b><br>
 									</p>
-									<p>Taman Anggrek Indonesia Permai<br>Jl. Raya TMII Jakarta Timur</p>
+									<p>Jl. Taman Mini I No.3, RW.3, Pinang Ranti<br>Kec. Makasar, Kota Jakarta Timur</p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
@@ -197,16 +197,16 @@
 									<h3>WEDDING RECEPTION</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>11:00 - 13.00</span>
+										<span>10:00 - 14.00</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Sunday</span>
-										<span>November 21, 2021</span>
+										<span>Saturday</span>
+										<span>November 13, 2021</span>
 									</div>
-									<p><b><i>GEDUNG PUSPA PESONA </i></b><br>
+									<p><b><i>Gedung Caping Gunung</i></b><br>
 									</p>
-									<p>Taman Anggrek Indonesia Permai<br>Jl. Raya TMII Jakarta Timur</p>
+									<p>Taman Mini Indonesia Indah, Ceger<br>Kec. Cipayung, Kota Jakarta Timur</p>
 								</div>
 							</div>
 						</div>
@@ -474,29 +474,13 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<h2>Your Gift For Us</h2>
+					<p>Your prayers is all we hope for, but you can also share your gift to us if you please :)</p>
 				</div>
 			</div>
 			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
+				<div class="col-md-10 col-md-offset-4">
+					<img src="<?= asset_url() ?>/images/HADID-BCAQR-MBCA.jpg" style="max-height: 550px" class="img-responsive">
 				</div>
 			</div>
 		</div>
@@ -507,49 +491,43 @@
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>Maps</h2>
+					<p>Here it is the maps to the places our events held</p>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row text-center">
+				<div class="col-md-6 animate-box">
+					<h3>AKAD</h3>
+				</div>
+
+				<div class="col-md-6 animate-box">
+					<h3>WEDDING RECEPTION</h3>				
+				</div>
+			</div>
+			<div class="row animate-box">
 				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<div>
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.74111653244!2d106.88195251468099!3d-6.297711163389696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed604e6e96f9%3A0xa88a2a04e7af5329!2sMasjid%20Agung%20At-Tin!5e0!3m2!1sid!2sid!4v1634672492985!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-right: 20px"></iframe>
+								<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+								<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+							</div>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(assets/images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
+				<div class="col-md-6">
+					<div>
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.701958014597!2d106.89615871468116!3d-6.30283546343869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed5a3b14df45%3A0xeb92a1875ca0baa6!2sCaping%20Gunung!5e0!3m2!1sid!2sid!4v1634671059124!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-left: 20px"></iframe>
+								<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+								<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
