@@ -443,30 +443,20 @@
 					<div class="col-md-12 animate-box">
 						<div class="wrap-testimony">
 							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>John Doe</span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>John Doe</span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<span>John Doe</span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
+								<?php 
+								foreach($testi as $data) {
+									echo 
+									'<div class="item">
+										<div class="testimony-slide active text-center">
+											<span>'.$data->guest_name.'</span>
+											<blockquote>
+												<p>"'.$data->testimoni.'"</p>
+											</blockquote>
+										</div>
+									</div>';
+								}
+
+								?>
 							</div>
 						</div>
 					</div>
@@ -645,11 +635,24 @@
 					success: function(data) {
 						data = JSON.parse(data)
 						if (data.success) {
-							let newItem = '<div><div class="testimony-slide active text-center"><span>'+ data.data.guest_name +'</span><blockquote><p>"'+ data.data.testimoni +'"</p></blockquote></div></div>'
+							var owl = document.getElementsByClassName("owl-item")[0].cloneNode(false);
 
-							$('.owl-carousel-fullwidth')
-								.trigger('add.owl.carousel', [newItem, 0])
+							let newItem = '\
+							<div class="item">\
+								<div class="testimony-slide active text-center">\
+									<span>'+ data.data.guest_name +'</span>\
+									<blockquote><p>"'+ data.data.testimoni +'"</p></blockquote>\
+								</div>\
+							</div>'
+
+							$(owl).append(newItem)
+
+
+							$('.owl-carousel-fullwidth:first')
+								.trigger('add.owl.carousel', [owl, 0])
 								.trigger('refresh.owl.carousel');
+
+							
 						} else {
 							alert(data.message)
 						}

@@ -28,7 +28,8 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home');
+		$data['testi'] = $this->model->select('testimonial');
+		$this->load->view('home', $data);
 	}
 
 	public function testimonial()
