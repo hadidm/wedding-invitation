@@ -78,27 +78,13 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="#fh5co-header">Home</a></li>
+						<li><a href="#fh5co-couple">The Couple</a></li>
+						<li><a href="#fh5co-event">Events</a></li>
+						<li><a href="#fh5co-couple-story">Stories</a></li>
+						<li><a href="#fh5co-gallery">Gallery</a></li>
+						<li><a href="#fh5co-testimonial">Testimonial</a></li>
+						<li><a href="#fh5co-started">Gift</a></li>
 					</ul>
 				</div>
 			</div>
@@ -136,7 +122,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="<?= asset_url() ?>/images/bridetb.jpg" alt="groom" class="img-responsive">
+						<img src="<?= asset_url() ?>/images/bridetb.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
 					</div>
 					<div class="desc-groom">
 						<h3>Nada Dwi Nurafifah</h3>
@@ -148,7 +134,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="<?= asset_url() ?>/images/hadid.jpg" alt="groom" class="img-responsive">
+						<img src="<?= asset_url() ?>/images/hadid.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
 					</div>
 					<div class="desc-bride">
 						<h3>Hadid Mubarak</h3>
@@ -176,7 +162,7 @@
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>AKAD</h3>
+									<h3>AKAD (Family Only)</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>16:00 - 17:30</span>
@@ -207,6 +193,40 @@
 									<p><b><i>Gedung Caping Gunung</i></b><br>
 									</p>
 									<p>Taman Mini Indonesia Indah, Ceger<br>Kec. Cipayung, Kota Jakarta Timur</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(assets/images/pink2.jpg); height: 650px; padding-top: 0px">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="row animate-box">
+					<!-- <div class="col-md-6">
+						<div>
+							<div class="mapouter">
+								<div class="gmap_canvas">
+									<iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.74111653244!2d106.88195251468099!3d-6.297711163389696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed604e6e96f9%3A0xa88a2a04e7af5329!2sMasjid%20Agung%20At-Tin!5e0!3m2!1sid!2sid!4v1634672492985!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-right: 20px"></iframe>
+									<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
+									<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+								</div>
+							</div>
+						</div>
+
+					</div> -->
+
+					<div class="col-md-12" style="justify-content: center;display: flex;">
+						<div>
+							<div class="mapouter">
+								<div class="gmap_canvas">
+									<iframe width="1000" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.701958014597!2d106.89615871468116!3d-6.30283546343869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed5a3b14df45%3A0xeb92a1875ca0baa6!2sCaping%20Gunung!5e0!3m2!1sid!2sid!4v1634671059124!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-left: 20px"></iframe>
+									<style>.mapouter{position:relative;text-align:right;height:500px;width:1000px;}</style>
+									<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style>
 								</div>
 							</div>
 						</div>
@@ -480,63 +500,69 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-4">
-					<img src="<?= asset_url() ?>/images/HADID-BCAQR-MBCA.jpg" style="max-height: 550px" class="img-responsive">
+					<img src="<?= asset_url() ?>/images/NADA-BCAQR-MBCA.jpeg" style="max-height: 550px" class="img-responsive">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-services" class="fh5co-section-gray">
+	<!-- <div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Maps</h2>
-					<p>Here it is the maps to the places our events held</p>
+					<h2>We Offer Services</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 
-			<div class="row text-center">
-				<div class="col-md-6 animate-box">
-					<h3>AKAD</h3>
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<h3>WEDDING RECEPTION</h3>				
-				</div>
-			</div>
-			<div class="row animate-box">
+			<div class="row">
 				<div class="col-md-6">
-					<div>
-						<div class="mapouter">
-							<div class="gmap_canvas">
-								<iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.74111653244!2d106.88195251468099!3d-6.297711163389696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed604e6e96f9%3A0xa88a2a04e7af5329!2sMasjid%20Agung%20At-Tin!5e0!3m2!1sid!2sid!4v1634672492985!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-right: 20px"></iframe>
-								<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-								<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-							</div>
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-calendar"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>We Organized Events</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-image"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Photoshoot</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-video"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Video Editing</h3>
+							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
 						</div>
 					</div>
 
 				</div>
 
-				<div class="col-md-6">
-					<div>
-						<div class="mapouter">
-							<div class="gmap_canvas">
-								<iframe width="600" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.701958014597!2d106.89615871468116!3d-6.30283546343869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed5a3b14df45%3A0xeb92a1875ca0baa6!2sCaping%20Gunung!5e0!3m2!1sid!2sid!4v1634671059124!5m2!1sid!2sid&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="padding-left: 20px"></iframe>
-								<style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style>
-								<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
-							</div>
-						</div>
+				<div class="col-md-6 animate-box">
+					<div class="fh5co-video fh5co-bg" style="background-image: url(assets/images/img_bg_3.jpg); ">
+						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
+						<div class="overlay"></div>
 					</div>
 				</div>
 			</div>
 
 			
 		</div>
-	</div>
+	</div> -->
 
-	<footer id="fh5co-footer" role="contentinfo">
+	<footer id="fh5co-footer" role="contentinfo" style="height: 0px; padding: 50px">
 		<div class="container">
 
 			<div class="row copyright">
