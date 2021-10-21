@@ -28,7 +28,10 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-		$data['testi'] = $this->model->select('testimonial');
+		$optSelect = [
+			"orderby" => [["testi_id", "desc"]]
+		];
+		$data['testi'] = $this->model->select('testimonial', $optSelect);
 		$this->load->view('home', $data);
 	}
 

@@ -144,7 +144,7 @@
 	var testimonialCarousel = function(){
 		var owl = $('.owl-carousel-fullwidth');
 		owl.owlCarousel({
-			items: 1,
+			items: 2,
 			loop: true,
 			margin: 0,
 			responsiveClass: true,

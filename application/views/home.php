@@ -102,7 +102,7 @@
 							<h1>Nada &amp; Hadid</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Save the date</a></p>
 						</div>
 					</div>
 				</div>
@@ -469,7 +469,7 @@
 									'<div class="item">
 										<div class="testimony-slide active text-center">
 											<span>'.$data->guest_name.'</span>
-											<blockquote>
+											<blockquote style="padding: 0px">
 												<p>"'.$data->testimoni.'"</p>
 											</blockquote>
 										</div>
@@ -639,24 +639,41 @@
 					success: function(data) {
 						data = JSON.parse(data)
 						if (data.success) {
-							var owl = document.getElementsByClassName("owl-item")[0].cloneNode(false);
+							// reset form
+							$('#invit-name').val('');
+							$('#invit-attend').val('attend');
+							$('#invit-testi').val('');
+							
+							// destroy carousel
+							$('.owl-carousel-fullwidth').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
+							$('.owl-carousel-fullwidth').find('.owl-stage-outer').children().unwrap();
 
+							// add item
 							let newItem = '\
 							<div class="item">\
 								<div class="testimony-slide active text-center">\
 									<span>'+ data.data.guest_name +'</span>\
-									<blockquote><p>"'+ data.data.testimoni +'"</p></blockquote>\
+									<blockquote style="padding: 0px"><p>"'+ data.data.testimoni +'"</p></blockquote>\
 								</div>\
 							</div>'
 
-							$(owl).append(newItem)
+							$('.owl-carousel-fullwidth').prepend(newItem);
 
+							// reinit carousel
+							var owl = $('.owl-carousel-fullwidth');
+							owl.owlCarousel({
+								items: 2,
+								loop: true,
+								margin: 0,
+								responsiveClass: true,
+								nav: true,
+								dots: true,
+								smartSpeed: 800,
+								autoHeight: true,
+								autoplay: true,
+								// stopOnHover: true
 
-							$('.owl-carousel-fullwidth:first')
-								.trigger('add.owl.carousel', [owl, 0])
-								.trigger('refresh.owl.carousel');
-
-							
+							});					
 						} else {
 							alert(data.message)
 						}

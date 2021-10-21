@@ -7,9 +7,18 @@ class HomeModel extends CI_Model
 		parent::__construct();
 	}
     
-    function select($table) {
+    function select($table, $options = null) {
         $this->db->select("*");
         $this->db->from($table);
+
+        if (isset($options) && count($options) > 0) {
+          if (array_key_exists('orderby', $options)) {
+            foreach($options['orderby'] as $ord) {
+              $this->db->order_by($ord[0], $ord[1]);
+            }
+          }
+        }
+        
         $query = $this->db->get();
 
         return $query->result();
