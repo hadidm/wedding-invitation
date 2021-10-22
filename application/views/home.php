@@ -8,9 +8,9 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Nada Hadid Wedding </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="Nada and Hadid Invitation Wedding" />
+	<meta name="keywords" content="nada, hadid, wedding, invitation" />
+	<meta name="author" content="NadaAndHadid" />
 
   <!-- 
 	//////////////////////////////////////////////////////
