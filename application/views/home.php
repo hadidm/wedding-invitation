@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nada Hadid Wedding </title>
+	<title>Nada Hadid Wedding</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Nada and Hadid Invitation Wedding" />
 	<meta name="keywords" content="nada, hadid, wedding, invitation" />
@@ -27,15 +27,15 @@
 	 -->
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta property="og:title" content="Nada Hadid Wedding"/>
+	<meta property="og:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
+	<meta property="og:url" content="https://senadadihadid.com"/>
+	<meta property="og:site_name" content="Nada Hadid Wedding"/>
+	<meta property="og:description" content="Nada and Hadid Invitation Wedding"/>
+	<meta name="twitter:title" content="Nada Hadid Wedding" />
+	<meta name="twitter:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG" />
+	<meta name="twitter:url" content="https://senadadihadid.com" />
+	<meta name="twitter:card" content="summary_large_image" />
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -63,6 +63,16 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BN17D9LFF"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-1BN17D9LFF');
+	</script>
 
 	</head>
 	<body>
@@ -329,24 +339,50 @@
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/2.jpg); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_1.JPG); "> 
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/3.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_2.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/4.jpg); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_3.JPG); "> 
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/5.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_4.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/6.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_5.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/7.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_6.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/8.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_7.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/9.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_99.JPG); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/10.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_9.JPG); ">
 						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_1.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_2.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_3.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_4.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_5.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_6.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_7.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_88.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_9.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_1.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_2.JPG); ">
+						</li>
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_3.JPG); ">
+						</li>
+
+
 
 
 
@@ -486,8 +522,8 @@
 	</div>
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
-		<audio autoplay loop>
-			<source src="<?= asset_url() ?>/media/sample.ogg" type="audio/ogg">
+		<audio autoplay loop id="backsound">
+			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
 			Your browser does not support the audio element.
 		</audio> 
 		<div class="overlay"></div>
@@ -586,6 +622,11 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
+
+	<div class="play-btn">
+		<a href="#" id='btn-backsound'><i id='backsound-ico' class="icon-play"></i></a>
+		<input type="hidden" id="backsound-status" value="play" />
+	</div>
 	
 	<!-- jQuery -->
 	<script src="<?= asset_url() ?>/js/jquery.min.js"></script>
@@ -625,6 +666,30 @@
 
 	<script>
 		$(document).ready(function () {
+			// BUTTON AUDIO
+			var vid = document.getElementById("backsound");
+
+			vid.onplay = function() {
+				$("#backsound-ico").addClass("icon-pause").removeClass("icon-play")
+				$("#backsound-status").val("play")
+			}; 
+			
+			vid.onpause = function() {
+				$("#backsound-ico").addClass("icon-play").removeClass("icon-pause")
+				$("#backsound-status").val("pause")
+			};
+
+			$("#btn-backsound").click(function(e) {
+				e.preventDefault();
+
+				if ($("#backsound-status").val() === "play") {
+					$("#backsound")[0].pause()
+				} else {
+					$("#backsound")[0].play()
+				}
+			})
+
+			// POST TESTI
 			$("#btn_testi").click(function(e) {
 				e.preventDefault();
 
