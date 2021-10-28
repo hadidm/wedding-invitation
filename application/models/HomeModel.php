@@ -28,4 +28,8 @@ class HomeModel extends CI_Model
       $this->db->insert($table, $data);
       return $this->db->insert_id();
     }
+
+    function select_raw($sql, $param) {
+      return $this->db->query($sql, $param)->result(); 
+    }
 }

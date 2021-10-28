@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nada Hadid Wedding</title>
+	<title>Nada & Hadid</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Nada and Hadid Invitation Wedding" />
 	<meta name="keywords" content="nada, hadid, wedding, invitation" />
@@ -27,16 +27,21 @@
 	 -->
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="Nada Hadid Wedding"/>
+	<meta property="og:title" content="Nada & Hadid"/>
 	<meta property="og:image:secure_url" itemprop="image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
 	<meta property="og:url" content="https://senadadihadid.com"/>
-	<meta property="og:site_name" content="Nada Hadid Wedding"/>
+	<meta property="og:site_name" content="Nada & Hadid"/>
 	<meta property="og:description" content="Nada and Hadid Invitation Wedding"/>
 	<meta property="og:type" content="website" />
-	<meta name="twitter:title" content="Nada Hadid Wedding" />
+	<meta name="twitter:title" content="Nada & Hadid" />
 	<meta name="twitter:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG" />
 	<meta name="twitter:url" content="https://senadadihadid.com" />
 	<meta name="twitter:card" content="summary_large_image" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="<?= asset_url() ?>images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?= asset_url() ?>images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?= asset_url() ?>images/favicon-16x16.png">
+	<link rel="manifest" href="<?= asset_url() ?>images/site.webmanifest">
 
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
@@ -64,6 +69,11 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style type="text/css">
+		.pointer:hover {
+		cursor:pointer;
+		}
+	</style>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1BN17D9LFF"></script>
@@ -103,7 +113,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(assets/images/4.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(assets/images/4.jpg); background-position: center;">  <!-- data-stellar-background-ratio="0.5" -->
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -125,7 +135,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
+					<h3>﷽</h3>
 					<!-- <h3>November 28th, 2016 New York, USA</h3> -->
 					<p>In the name of Allah SWT, most gracious and most grateful, we are cordially request the honor of your presence at the marriage of our children</p>
 				</div>
@@ -145,7 +155,7 @@
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="<?= asset_url() ?>/images/hadid.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
+						<img src="<?= asset_url() ?>/images/groomtb.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
 					</div>
 					<div class="desc-bride">
 						<h3>Hadid Mubarak</h3>
@@ -172,7 +182,7 @@
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
+								<div class="event-wrap animate-box" style="min-height: 380px;">
 									<h3>AKAD (Family Only)</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
@@ -184,17 +194,23 @@
 										<span>Friday</span>
 										<span>November 12, 2021</span>
 									</div>
-									<p><b><i>Mesjid At-Tin </i></b><br>
+									<p><b><i>Live Streaming</i></b><br>
 									</p>
-									<p>Jl. Taman Mini I No.3, RW.3, Pinang Ranti<br>Kec. Makasar, Kota Jakarta Timur</p>
+									<p style="font-size: x-large;">
+										<a href='https://bit.ly/NadaHadid' target="_blank" style='color: #BBC8FD;'>https://bit.ly/NadaHadid</a>
+									</p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
+								<div class="event-wrap animate-box" style="min-height: 380px;">
 									<h3>WEDDING RECEPTION</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>10:00 - 14.00</span>
+										<span>
+											<?php
+												echo $from_hours . ' - ' . $to_hours;
+											?>
+										</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
@@ -239,6 +255,9 @@
 									<style>.mapouter{position:relative;text-align:right;height:500px;width:1000px;}</style>
 									<style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1000px;}</style>
 								</div>
+							</div>
+							<div style="margin-top: 20px; justify-content: center;display: flex">
+								<p><a href="https://goo.gl/maps/RgEdAzZk5dK8Vqno8" target="_blank" class="btn btn-primary btn-sm">See the location in Google Maps</a></p>
 							</div>
 						</div>
 					</div>
@@ -340,47 +359,35 @@
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_1.JPG); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_1.jpg); "> 
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_2.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_2.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_3.JPG); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_3.jpg); "> 
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_4.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_4.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_5.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_6.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_6.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_9.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_7.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_1.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_99.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_3.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_9.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_4.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_1.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_5.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_2.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_6.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_3.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_88.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_4.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_1.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_5.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_2.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_6.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_7.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_88.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_9.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_1.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_2.JPG); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_3.JPG); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_3.jpg); ">
 						</li>
 
 
@@ -523,6 +530,7 @@
 	</div>
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
+		<iframe src="<?= asset_url() ?>/media/silence.mp3" allow="autoplay" style="display: none"></iframe>
 		<audio autoplay loop id="backsound">
 			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
@@ -537,7 +545,14 @@
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-10 col-md-offset-4">
-					<img src="<?= asset_url() ?>/images/NADA-BCAQR-MBCA.jpeg" style="max-height: 550px" class="img-responsive">
+					<img src="<?= asset_url() ?>/images/NADA-BCAQR-MBCA-CROP.jpeg" style="max-height: 550px" class="img-responsive">
+				</div>
+				<div class="col-md-5 col-md-offset-4" style="justify-content: center; text-align: center; color: #fff;">
+					<p>
+						<span class='pointer' onclick="navigator.clipboard.writeText('1650359492');">BCA - 1650359492&nbsp;<i class="icon-copy"></i></span>
+						<br>
+						a.n Nada Dwi Nurafifah
+					</p>
 				</div>
 			</div>
 		</div>

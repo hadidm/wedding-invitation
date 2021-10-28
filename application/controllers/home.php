@@ -32,6 +32,28 @@ class Home extends CI_Controller {
 			"orderby" => [["testi_id", "desc"]]
 		];
 		$data['testi'] = $this->model->select('testimonial', $optSelect);
+		
+		$to = $this->input->get('to');
+		
+		$sql = "
+		select g.guest_name, g.related_with, s.from_hours, s.to_hours
+		from guests g 
+		inner join evt_session s 
+			on g.evt_sess_id = s.evt_session_id
+		where g.guest_name = ?";
+
+		$from_hours = '10:00';
+		$to_hours = '14:00';
+		$guest = $this->model->select_raw($sql, [$to]);
+		
+		if ($guest != null && count($guest) > 0) {
+			$from_hours = $guest[0]->from_hours;
+			$to_hours = $guest[0]->to_hours;
+		}
+
+		$data['from_hours'] = $from_hours;
+		$data['to_hours'] = $to_hours;
+
 		$this->load->view('home', $data);
 	}
 
