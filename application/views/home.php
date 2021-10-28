@@ -28,10 +28,11 @@
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="Nada Hadid Wedding"/>
-	<meta property="og:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
+	<meta property="og:image:secure_url" itemprop="image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
 	<meta property="og:url" content="https://senadadihadid.com"/>
 	<meta property="og:site_name" content="Nada Hadid Wedding"/>
 	<meta property="og:description" content="Nada and Hadid Invitation Wedding"/>
+	<meta property="og:type" content="website" />
 	<meta name="twitter:title" content="Nada Hadid Wedding" />
 	<meta name="twitter:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG" />
 	<meta name="twitter:url" content="https://senadadihadid.com" />
@@ -523,7 +524,7 @@
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
 		<audio autoplay loop id="backsound">
-			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
+			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
 		</audio> 
 		<div class="overlay"></div>
@@ -604,13 +605,12 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small>
+							Developed by NadaAndHadid Project (ɔ◔‿◔)ɔ♥
+						</small>
 					</p>
 					<p>
-						<small>
-							Developed by Nada & Hadid "Bersatu tak bisa dikalahkan"
-						</small>
+						<small class="block">&copy; 2016 <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a>. All Rights Reserved.</small> 
 					</p>
 				</div>
 			</div>
