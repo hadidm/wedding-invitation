@@ -194,10 +194,10 @@
 										<span>Friday</span>
 										<span>November 12, 2021</span>
 									</div>
-									<p><b><i>Live Streaming</i></b><br>
+									<p><b><i>&nbsp;</i></b><br>
 									</p>
 									<p style="font-size: x-large;">
-										<a href='https://bit.ly/NadaHadid' target="_blank" style='color: #BBC8FD;'>https://bit.ly/NadaHadid</a>
+										<a href='https://bit.ly/NadaHadid' class="btn btn-primary btn-lg" target="_blank">Live Streaming</a>
 									</p>
 								</div>
 							</div>
@@ -530,11 +530,11 @@
 	</div>
 
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
-		<iframe src="<?= asset_url() ?>/media/silence.mp3" allow="autoplay" style="display: none"></iframe>
-		<audio autoplay loop id="backsound">
+		<!-- <audio autoplay loop id="backsound">
+			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
 			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
-		</audio> 
+		</audio> -->
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -640,7 +640,6 @@
 
 	<div class="play-btn">
 		<a href="#" id='btn-backsound'><i id='backsound-ico' class="icon-play"></i></a>
-		<input type="hidden" id="backsound-status" value="play" />
 	</div>
 	
 	<!-- jQuery -->
@@ -681,26 +680,30 @@
 
 	<script>
 		$(document).ready(function () {
-			// BUTTON AUDIO
-			var vid = document.getElementById("backsound");
 
-			vid.onplay = function() {
+			var aud = document.createElement("AUDIO");
+			aud.setAttribute('id', 'backsound')
+			aud.src = "<?= asset_url() ?>/media/backsound.mp3";
+			aud.play();
+
+			// BUTTON AUDIO
+			// var vid = document.getElementById("backsound");
+
+			aud.onplay = function() {
 				$("#backsound-ico").addClass("icon-pause").removeClass("icon-play")
-				$("#backsound-status").val("play")
 			}; 
 			
-			vid.onpause = function() {
+			aud.onpause = function() {
 				$("#backsound-ico").addClass("icon-play").removeClass("icon-pause")
-				$("#backsound-status").val("pause")
 			};
 
 			$("#btn-backsound").click(function(e) {
 				e.preventDefault();
 
-				if ($("#backsound-status").val() === "play") {
-					$("#backsound")[0].pause()
+				if ($("#backsound-ico").hasClass('icon-pause')) {
+					aud.pause()
 				} else {
-					$("#backsound")[0].play()
+					aud.play()
 				}
 			})
 
