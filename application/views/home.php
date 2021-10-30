@@ -123,7 +123,7 @@
 							<h1>Nada &amp; Hadid</h1>
 							<h2>Kami Menikah :)</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Ingat tanggalnya</a></p>
+							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Catat Tanggalnya</a></p>
 						</div>
 					</div>
 				</div>
