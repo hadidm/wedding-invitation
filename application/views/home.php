@@ -180,7 +180,9 @@
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
+						<div class="col-md-10 col-md-offset-1"
+							<?= $invit_type !== "hadir" ? 'style="justify-content: center;display: flex;"' : "" ?>
+						>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
 									<h3>AKAD (Family Only)</h3>
@@ -201,6 +203,9 @@
 									</p>
 								</div>
 							</div>
+							<?php 
+								if ($invit_type === "hadir") {
+							?>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
 									<h3>WEDDING RECEPTION</h3>
@@ -222,6 +227,9 @@
 									<p>Taman Mini Indonesia Indah, Ceger<br>Kec. Cipayung, Kota Jakarta Timur</p>
 								</div>
 							</div>
+							<?php 
+								}
+							?>
 						</div>
 					</div>
 				</div>
@@ -229,6 +237,9 @@
 		</div>
 	</div>
 
+	<?php 
+		if ($invit_type === "hadir") {
+	?>
 	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(assets/images/pink2.jpg); height: 650px; padding-top: 0px">
 		<div class="overlay"></div>
 		<div class="container">
@@ -265,6 +276,9 @@
 			</div>
 		</div>
 	</div>
+	<?php 
+		}
+	?>
 
 	<div id="fh5co-couple-story">
 		<div class="container">
@@ -641,6 +655,24 @@
 	<div class="play-btn">
 		<a href="#" id='btn-backsound'><i id='backsound-ico' class="icon-play"></i></a>
 	</div>
+
+	<div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+			<div class="modal-header" style="border-bottom: 0 none;">
+				<h2 style='text-align: center; font-weight: bold; color: #F14E95; font-size: 60px; font-family: "Sacramento", Arial, serif; margin: 0px;' id="welcomeModalTitle">
+					Welcome
+				</h2>
+			</div>
+			<div class="modal-body" style="text-align: center;">
+				Dear <?= $guest_name ?>, we invite you to come to join our Wedding event!
+			</div>
+			<div class="modal-footer" style="text-align: center; border-top: 0 none;">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Continue</button>
+			</div>
+			</div>
+		</div>
+	</div>
 	
 	<!-- jQuery -->
 	<script src="<?= asset_url() ?>/js/jquery.min.js"></script>
@@ -680,31 +712,34 @@
 
 	<script>
 		$(document).ready(function () {
+			$('#welcomeModal').modal('show');
 
-			var aud = document.createElement("AUDIO");
-			aud.setAttribute('id', 'backsound')
-			aud.src = "<?= asset_url() ?>/media/backsound.mp3";
-			aud.play();
+			$('#welcomeModal').on('hidden.bs.modal', function() {
+				var aud = document.createElement("AUDIO");
+				aud.setAttribute('id', 'backsound')
+				aud.src = "<?= asset_url() ?>/media/backsound.mp3";
+				aud.play();
 
-			// BUTTON AUDIO
-			// var vid = document.getElementById("backsound");
+				// BUTTON AUDIO
+				// var vid = document.getElementById("backsound");
 
-			aud.onplay = function() {
-				$("#backsound-ico").addClass("icon-pause").removeClass("icon-play")
-			}; 
-			
-			aud.onpause = function() {
-				$("#backsound-ico").addClass("icon-play").removeClass("icon-pause")
-			};
+				aud.onplay = function() {
+					$("#backsound-ico").addClass("icon-pause").removeClass("icon-play")
+				}; 
+				
+				aud.onpause = function() {
+					$("#backsound-ico").addClass("icon-play").removeClass("icon-pause")
+				};
 
-			$("#btn-backsound").click(function(e) {
-				e.preventDefault();
+				$("#btn-backsound").click(function(e) {
+					e.preventDefault();
 
-				if ($("#backsound-ico").hasClass('icon-pause')) {
-					aud.pause()
-				} else {
-					aud.play()
-				}
+					if ($("#backsound-ico").hasClass('icon-pause')) {
+						aud.pause()
+					} else {
+						aud.play()
+					}
+				})
 			})
 
 			// POST TESTI

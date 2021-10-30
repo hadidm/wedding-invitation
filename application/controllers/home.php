@@ -36,21 +36,30 @@ class Home extends CI_Controller {
 		$to = $this->input->get('to');
 		
 		$sql = "
-		select g.guest_name, g.related_with, s.from_hours, s.to_hours
+		select g.guest_name, g.related_with, g.invit_type, s.from_hours, s.to_hours
 		from guests g 
-		inner join evt_session s 
+		left join evt_session s 
 			on g.evt_sess_id = s.evt_session_id
-		where g.guest_name = ?";
+		where g.guest_id = ?";
 
+		$guest_name = 'Tamu';
+		$invit_type = 'Livestream';
 		$from_hours = '10:00';
 		$to_hours = '14:00';
 		$guest = $this->model->select_raw($sql, [$to]);
 		
 		if ($guest != null && count($guest) > 0) {
-			$from_hours = $guest[0]->from_hours;
-			$to_hours = $guest[0]->to_hours;
+			$guest_name = $guest[0]->guest_name;
+			$invit_type = strtolower($guest[0]->invit_type);
+
+			if ($guest[0]->from_hours != null)
+				$from_hours = $guest[0]->from_hours;
+			if ($guest[0]->to_hours != null)
+				$to_hours = $guest[0]->to_hours;
 		}
 
+		$data['guest_name'] = $guest_name;
+		$data['invit_type'] = $invit_type;
 		$data['from_hours'] = $from_hours;
 		$data['to_hours'] = $to_hours;
 
