@@ -296,7 +296,7 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Pertama Kami Bertemu</h3>
+									<h3 class="timeline-title">Pertama Mereka Bertemu</h3>
 									<span class="date">September, 2018</span>
 								</div>
 								<div class="timeline-body">
