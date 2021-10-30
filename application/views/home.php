@@ -8,8 +8,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Nada & Hadid</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Nada and Hadid Invitation Wedding" />
-	<meta name="keywords" content="nada, hadid, wedding, invitation" />
+	<meta name="description" content="Nada and Hadid Undangan Pernikahan" />
+	<meta name="keywords" content="nada, hadid, wedding, invitation, undangan, pernikahan" />
 	<meta name="author" content="NadaAndHadid" />
 
   <!-- 
@@ -31,7 +31,7 @@
 	<meta property="og:image:secure_url" itemprop="image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
 	<meta property="og:url" content="https://senadadihadid.com"/>
 	<meta property="og:site_name" content="Nada & Hadid"/>
-	<meta property="og:description" content="Nada and Hadid Invitation Wedding"/>
+	<meta property="og:description" content="Nada and Hadid Undangan Pernikahan"/>
 	<meta property="og:type" content="website" />
 	<meta name="twitter:title" content="Nada & Hadid" />
 	<meta name="twitter:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG" />
@@ -99,13 +99,13 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="#fh5co-header">Home</a></li>
-						<li><a href="#fh5co-couple">The Couple</a></li>
-						<li><a href="#fh5co-event">Events</a></li>
-						<li><a href="#fh5co-couple-story">Stories</a></li>
-						<li><a href="#fh5co-gallery">Gallery</a></li>
+						<li class="active"><a href="#fh5co-header">Beranda</a></li>
+						<li><a href="#fh5co-couple">Mempelai</a></li>
+						<li><a href="#fh5co-event">Acara</a></li>
+						<li><a href="#fh5co-couple-story">Kisah</a></li>
+						<li><a href="#fh5co-gallery">Galeri</a></li>
 						<li><a href="#fh5co-testimonial">Testimonial</a></li>
-						<li><a href="#fh5co-started">Gift</a></li>
+						<li><a href="#fh5co-started">Hadiah</a></li>
 					</ul>
 				</div>
 			</div>
@@ -121,9 +121,9 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Nada &amp; Hadid</h1>
-							<h2>We Are Getting Married</h2>
+							<h2>Kami Menikah :)</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Save the date</a></p>
+							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Ingat tanggalnya</a></p>
 						</div>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h3>﷽</h3>
 					<!-- <h3>November 28th, 2016 New York, USA</h3> -->
-					<p>In the name of Allah SWT, most gracious and most grateful, we are cordially request the honor of your presence at the marriage of our children</p>
+					<p>Dengan nama Allah SWT, maha pengasih lagi maha penyayang, kami mohon dengan hormat kehadiran Bapak/Ibu/Saudara/i di acara pernikahan anak kami</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -147,9 +147,9 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Nada Dwi Nurafifah</h3>
-						<p><i>The 1st Daughter of </i><br>
-						<b>Mr. Suhri <br>
-						Mrs. Rohayati</b></p>
+						<p><i>Putri Pertama Dari </i><br>
+						<b>Bpk. Suhri <br>
+						Ibu. Rohayati</b></p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -159,9 +159,9 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Hadid Mubarak</h3>
-						<p><i>The 4th Son of </i><br>
-						<b>Mr. H. Kurniawan (Alm) <br>
-						Mrs. Hj. Siti Rahma</b></p>
+						<p><i>Anak Ke-4 Dari </i><br>
+						<b>Bpk. H. Kurniawan (Alm) <br>
+						Ibu. Hj. Siti Rahma</b></p>
 					</div>
 				</div>
 			</div>
@@ -173,8 +173,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
+					<span>Acara Spesial Kami</span>
+					<h2>Acara Pernikahan</h2>
 				</div>
 			</div>
 			<div class="row">
@@ -185,7 +185,7 @@
 						>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
-									<h3>AKAD (Family Only)</h3>
+									<h3>AKAD (Hanya Keluarga)</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>16:00 - 17:30</span>
@@ -193,8 +193,8 @@
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Friday</span>
-										<span>November 12, 2021</span>
+										<span>Jum'at</span>
+										<span>12 November 2021</span>
 									</div>
 									<p><b><i>&nbsp;</i></b><br>
 									</p>
@@ -208,7 +208,7 @@
 							?>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
-									<h3>WEDDING RECEPTION</h3>
+									<h3>Resepsi Pernikahan</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>
@@ -219,8 +219,8 @@
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Saturday</span>
-										<span>November 13, 2021</span>
+										<span>Sabtu</span>
+										<span>13 November 2021</span>
 									</div>
 									<p><b><i>Gedung Caping Gunung</i></b><br>
 									</p>
@@ -268,7 +268,7 @@
 								</div>
 							</div>
 							<div style="margin-top: 20px; justify-content: center;display: flex">
-								<p><a href="https://goo.gl/maps/RgEdAzZk5dK8Vqno8" target="_blank" class="btn btn-primary btn-sm">See the location in Google Maps</a></p>
+								<p><a href="https://goo.gl/maps/RgEdAzZk5dK8Vqno8" target="_blank" class="btn btn-primary btn-sm">Lihat lokasi di Google Maps</a></p>
 							</div>
 						</div>
 					</div>
@@ -284,8 +284,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
+					<span>Kami Yang Saling Mencintai</span>
+					<h2>Kisah Kami</h2>
 					
 				</div>
 			</div>
@@ -296,14 +296,14 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
+									<h3 class="timeline-title">Pertama Kami Bertemu</h3>
 									<span class="date">September, 2018</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Nada and Hadid met in office at Sudirman, Central Jakarta. At that time, Nada was a new employees and Hadid was her senior. 
-										They were in the same project and since that they often working together. 
-										In addition, apparently Nada and Hadid studied at the same university and same major in Politeknik Negeri Bandung.
+										Nada dan Hadid bertemu di tempat kerja di Sudirman, Jakarta Pusat. Pada saat itu, Nada adalah karyawab baru dan Hadid adalah seniornya.
+										Mereka ditempatkan di Project yang sama dan semenjak saat itu mereka sering bekerja bersama.
+										Dan ternyata, Nada dan Hadid adalah satu almamater dengan jurusan yang sama di Politeknik Negeri Bandung
 									</p>
 								</div>
 							</div>
@@ -312,16 +312,16 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">May 09, 2020</span>
+									<h3 class="timeline-title">Terjalinnya Ikatan</h3>
+									<span class="date">09 May 2020</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Since they lost contact for some times, they are back in touch starting via instagram in pandemic time!
-										After that they had an intense relationship, texting overnight, had some video calls.
-										Initially Hadid want to meet Nada first, before he decide to convey his feelings. But because of the pandemic,
-										it couldn't be done. Worried if he waited too long, the chance would be lost, Hadid conveyed his feelings on Nada.
-										And Nada said Yes! Yeayy
+										Sejak mereka hilang komunikasi untuk beberapa waktu, mereka kembali berhubungan via instagram di masa pandemi!
+										Setelah itu mereka berhubungan dengan intense, chatting sepanjang malam, dan sesekali video call.
+										Pada awalnya Hadid ingin bertemu Nada dahulu, sebelum ia memutuskan untuk menyampaikan perasaannya. Tapi karena pandemi,
+										hal itu tidak dapat dilakukan. Khawatir jika menunggu terlalu lama, kesempatan akan hilang, Hadid menyatakan perasaannya pada Nada.
+										Dan Nada mengatakan "Yes!" Yeayy..
 									</p>
 								</div>
 							</div>
@@ -330,14 +330,14 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Engagement Day</h3>
-									<span class="date">December 12, 2020</span>
+									<h3 class="timeline-title">Hari Tunangan</h3>
+									<span class="date">12 December 2020</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Even though their relationship was brief but they both were sure to continue to a more serious level. 
-										So Hadid decided to came to Nada`s parents for ask permissions to marry Nada. 
-										They finally got engage on December 12, 2020.
+										Walaupun hubungan mereka belum terlalu panjang, tapi mereka yakin untuk melanjutkan hubungan mereka ke level yang lebih serius.
+										Hadid memutuskan untuk datang ke Orang Tua Nada untuk memohon izin agar menikahi Nada.
+										Mereka akhirnya bertunangan pada 12 Desember 2020
 									</p>
 								</div>
 							</div>
@@ -346,11 +346,13 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">The Big Day</h3>
-									<span class="date">November 13, 2021</span>
+									<h3 class="timeline-title">Hari Besar</h3>
+									<span class="date">13 November 2021</span>
 								</div>
 								<div class="timeline-body">
-									<p>They choose a beautiful date 13-11-21 for their wedding. See you around!!</p>
+									<p>Mereka memilih tanggal yang indah, Jumat, 12-11-21 untuk hari Akad mereka.
+										Dan Resepsi akan digelar pada esok harinya, Sabtu, 13 November 2021
+									</p>
 								</div>
 							</div>
 						</li>
@@ -364,8 +366,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Gallery</h2>
+					<!-- <span>Kenangan Kami</span> -->
+					<h2>Galeri</h2>
 					
 				</div>
 			</div>
@@ -474,7 +476,7 @@
 				
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Send us your greetings...</h2>
+						<h2>Sampaikan salammu pada kami :)</h2>
 					</div>
 				</div>
 				<div class="row animate-box">
@@ -482,28 +484,28 @@
 						<form class="form-inline">
 							<div class="row col-md-12 col-sm-12">
 								<div class="form-group col-md-6 col-sm-6" style="padding-left: 0px">
-									<label for="invit-name" class="sr-only">Name</label>
+									<label for="invit-name" class="sr-only">Nama</label>
 									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Your Name">
 								</div>
 								<div class="form-group col-md-6 col-sm-6" style="text-align: right">
-									<label for="invit-attend" class="sr-only">Invitation From</label>
+									<label for="invit-attend" class="sr-only">Kehadiran</label>
 									
 									<select class="form-control custom-select my-1 mr-sm-2" id="invit-attend" style="width: 100%">
-										<option value="attend" selected>I will attend to see you!</option>
-										<option value="noattend">Sorry, maybe I won't be there, but my prayers always for you</option>
-										<option value="notsure">Hmmm let we see later...</option>
+										<option value="attend" selected>Saya akan datang</option>
+										<option value="notsure">Hmm semoga kami bisa datang</option>
+										<option value="noattend">Maaf, mungkin saya belum bisa datang, tapi saya selalu mendoakan kalian</option>
 									</select>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
 								<div class="form-group">
-									<label for="greeting" class="sr-only">Greetings</label>
+									<label for="greeting" class="sr-only">Salam</label>
 									<textarea type="greeting" class="form-control" id="invit-testi" 
 										placeholder="I'm happy to see you standing there bud" rows="4" cols="80"></textarea>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
-								<a href="#" id="btn_testi" class="btn btn-primary btn-block">Submit</a>
+								<a href="#" id="btn_testi" class="btn btn-primary btn-block">Kirim</a>
 							</div>
 						</form>
 					</div>
@@ -513,8 +515,8 @@
 
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
+						<span>Harapan Kami</span>
+						<h2>Harapan Untukmu</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -553,8 +555,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Your Gift For Us</h2>
-					<p>Your prayers is all we hope for, but you can also share your gift to us if you please :)</p>
+					<h2>Kado Anda Untuk Kami</h2>
+					<p>Doamu adalah yang kami nantikan, tapi kamu juga bisa berbagi hadiah untuk kami jika kamu mau :)</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -661,14 +663,14 @@
 			<div class="modal-content">
 			<div class="modal-header" style="border-bottom: 0 none;">
 				<h2 style='text-align: center; font-weight: bold; color: #F14E95; font-size: 60px; font-family: "Sacramento", Arial, serif; margin: 0px;' id="welcomeModalTitle">
-					Welcome
+					Selamat Datang
 				</h2>
 			</div>
 			<div class="modal-body" style="text-align: center;">
-				Dear <?= $guest_name ?>, we invite you to come to join our Wedding event!
+				Dear <?= $guest_name ?>, kami mengundang anda untuk hadir di acara pernikahan kami!
 			</div>
 			<div class="modal-footer" style="text-align: center; border-top: 0 none;">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Continue</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Lanjut</button>
 			</div>
 			</div>
 		</div>
