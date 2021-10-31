@@ -515,8 +515,8 @@
 
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Harapan Kami</span>
-						<h2>Harapan Untukmu</h2>
+						<span>Harapanmu</span>
+						<h2>Harapanmu Untuk Kami</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -667,7 +667,7 @@
 				</h2>
 			</div>
 			<div class="modal-body" style="text-align: center;">
-				Dear <?= $guest_name ?>, kami mengundang anda untuk hadir di acara pernikahan kami!
+				Dear <?= $guest_name ?>, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara pernikahan kami.
 			</div>
 			<div class="modal-footer" style="text-align: center; border-top: 0 none;">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal">Lanjut</button>
