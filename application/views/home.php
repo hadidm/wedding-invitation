@@ -720,6 +720,7 @@
 				var aud = document.createElement("AUDIO");
 				aud.setAttribute('id', 'backsound')
 				aud.src = "<?= asset_url() ?>/media/backsound.mp3";
+				aud.loop = true;
 				aud.play();
 
 				// BUTTON AUDIO
