@@ -42,7 +42,7 @@ class Home extends CI_Controller {
 			on g.evt_sess_id = s.evt_session_id
 		where g.guest_id = ?";
 
-		$guest_name = 'Tamu';
+		$guest_name = 'Tamu Undangan';
 		$invit_type = 'Livestream';
 		$from_hours = '10:00';
 		$to_hours = '14:00';

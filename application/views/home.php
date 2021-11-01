@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Nada & Hadid</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Nada and Hadid Undangan Pernikahan" />
+	<meta name="description" content="Undangan Pernikahan - Nada dan Hadid" />
 	<meta name="keywords" content="nada, hadid, wedding, invitation, undangan, pernikahan" />
 	<meta name="author" content="NadaAndHadid" />
 
@@ -31,7 +31,7 @@
 	<meta property="og:image:secure_url" itemprop="image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG"/>
 	<meta property="og:url" content="https://senadadihadid.com"/>
 	<meta property="og:site_name" content="Nada & Hadid"/>
-	<meta property="og:description" content="Nada and Hadid Undangan Pernikahan"/>
+	<meta property="og:description" content="Undangan Pernikahan - Nada dan Hadid"/>
 	<meta property="og:type" content="website" />
 	<meta name="twitter:title" content="Nada & Hadid" />
 	<meta name="twitter:image" content="https://www.senadadihadid.com/assets/images/eg/B_6.JPG" />
@@ -121,9 +121,9 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Nada &amp; Hadid</h1>
-							<h2>Kami Menikah :)</h2>
+							<h2>We are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Catat Tanggalnya</a></p>
+							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Simpan Tanggal</a></p>
 						</div>
 					</div>
 				</div>
@@ -135,9 +135,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h3>﷽</h3>
+					<h2>Bismillahirrahmanirrahim</h2>
 					<!-- <h3>November 28th, 2016 New York, USA</h3> -->
-					<p>Dengan nama Allah SWT, maha pengasih lagi maha penyayang, kami mohon dengan hormat kehadiran Bapak/Ibu/Saudara/i di acara pernikahan anak kami</p>
+					<p>Dengan memohon rahmat dan ridho Allah SWT beserta segenap kerendahan hati, kami bermaksud mengundang Bapak/Ibu/Saudara/i dalam acara pernikahan putra-putri kami,</p>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -147,9 +147,9 @@
 					</div>
 					<div class="desc-groom">
 						<h3>Nada Dwi Nurafifah</h3>
-						<p><i>Putri Pertama Dari </i><br>
-						<b>Bpk. Suhri <br>
-						Ibu. Rohayati</b></p>
+						<p><i>Putri pertama dari </i><br>
+						<b>Bapak Suhri, M.Pd. <br>
+						Ibu Rohayati</b></p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -159,9 +159,9 @@
 					</div>
 					<div class="desc-bride">
 						<h3>Hadid Mubarak</h3>
-						<p><i>Anak Ke-4 Dari </i><br>
-						<b>Bpk. H. Kurniawan (Alm) <br>
-						Ibu. Hj. Siti Rahma</b></p>
+						<p><i>Putra keempat dari</i><br>
+						<b>Bapak Ir. H. Kurniawan (Alm) <br>
+						Ibu Hj. Siti Rachma</b></p>
 					</div>
 				</div>
 			</div>
@@ -174,18 +174,20 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Acara Spesial Kami</span>
-					<h2>Acara Pernikahan</h2>
+					<h2>Detail Acara</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1"
-							<?= $invit_type !== "hadir" ? 'style="justify-content: center;display: flex;"' : "" ?>
-						>
+						<div class="col-md-10 col-md-offset-1">
+						    	<?php 
+								if ($invit_type != "hadir") {
+							?>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
-									<h3>AKAD (Hanya Keluarga)</h3>
+									<h3>AKAD NIKAH</h3>
+									<span>hanya keluarga</span>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>16:00 - 17:30</span>
@@ -196,19 +198,59 @@
 										<span>Jum'at</span>
 										<span>12 November 2021</span>
 									</div>
-									<p><b><i>&nbsp;</i></b><br>
+									<p>
+										<b><i>Masjid Agung At-Tin</i></b>
 									</p>
-									<p style="font-size: x-large;">
-										<a href='https://bit.ly/NadaHadid' class="btn btn-primary btn-lg" target="_blank">Live Streaming</a>
+									<p>Makasar, Jakarta Timur</p>
+									<p style="font-size: 12px; margin-bottom: 0px">
+										**Sehubungan dengan keterbatasan kondisi pandemi Covid-19 saat ini, 
+										kami memohon maaf tidak dapat mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami secara langsung. 
+										Namun kami berharap Bapak/Ibu/Saudara/i berkenan memberikan doa restu agar putra-putri kami menjadi keluarga yang sakinnah, mawaddah, warahmah. Aamiin. 
+									</p>									
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box" style="min-height: 380px;">
+									<h3>Siaran Langsung</h3>
+									<p>
+									<iframe width="370" height="170" src="https://www.youtube.com/embed/b1zw3eB_7ek" frameborder="0" allowfullscreen></iframe>
+									</p>
+									<p style="font-size: 12px;">Kami berharap Bapak/Ibu/Saudara/i berkenan turut menyaksikan pernikahan putra-putri kami dari jarak jauh dengan bergabung melalui siaran langsung. Silahkan klik tombol di bawah ini:</p>
+									<p style="font-size: x-large; margin-bottom: 0px;">
+										<a href='https://bit.ly/NadaHadid' class="btn btn-primary btn-lg" target="_blank">Lihat Siaran Langsung</a>
 									</p>
 								</div>
 							</div>
+							<?php 
+								}
+							?>
 							<?php 
 								if ($invit_type === "hadir") {
 							?>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box" style="min-height: 380px;">
-									<h3>Resepsi Pernikahan</h3>
+									<h3>AKAD NIKAH</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>16:00 - 17:30</span>
+										
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Jum'at</span>
+										<span>12 November 2021</span>
+									</div>
+									<p><b><i>MASJID AGUNG AT-TIN</i></b><br>
+									</p>
+									<p style="font-size: 12px;">Prosesi Akad Nikah hanya dihadiri oleh keluarga inti. Bapak/Ibu/Saudara/i dapat menyaksikan Prosesi Akad Nikah kami melalui live streaming berikut</p>
+									<p style="font-size: x-large;">
+										<a href='https://bit.ly/NadaHadid' class="btn btn-primary btn-lg" target="_blank">Lihat Live Streaming</a>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box" style="min-height: 380px;">
+									<h3>Resepsi</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>
@@ -222,9 +264,11 @@
 										<span>Sabtu</span>
 										<span>13 November 2021</span>
 									</div>
-									<p><b><i>Gedung Caping Gunung</i></b><br>
+									<p><b><i>CAPING GUNUNG</i></b><br>
 									</p>
-									<p>Taman Mini Indonesia Indah, Ceger<br>Kec. Cipayung, Kota Jakarta Timur</p>
+									<p>Area Taman Mini Indonesia Indah<br>Ceger, Cipayung, Jakarta Timur</p>
+									<br>
+									<p style="font-size: 12px;">Mohon untuk membawa undangan online ini sebagai akses Pintu Masuk Taman Mini</p>
 								</div>
 							</div>
 							<?php 
@@ -284,7 +328,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Kami Yang Saling Mencintai</span>
+					<span>We Love Each Other</span>
 					<h2>Kisah Kami</h2>
 					
 				</div>
@@ -296,14 +340,13 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Pertama Mereka Bertemu</h3>
+									<h3 class="timeline-title">Pertama Kali Bertemu</h3>
 									<span class="date">September, 2018</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Nada dan Hadid bertemu di tempat kerja di Sudirman, Jakarta Pusat. Pada saat itu, Nada adalah karyawab baru dan Hadid adalah seniornya.
-										Mereka ditempatkan di Project yang sama dan semenjak saat itu mereka sering bekerja bersama.
-										Dan ternyata, Nada dan Hadid adalah satu almamater dengan jurusan yang sama di Politeknik Negeri Bandung
+										Pertama kali kami bertemu yaitu di tempat kerja daerah Sudirman, Jakarta Pusat. Pada saat itu, Nada adalah pegawai baru dan Hadid adalah seniornya di project yang sama. Pada saat pertemuan pertama itulah kami sebenarnya sudah memiliki love at first sight hahaha, tetapi belum berani untuk saling mengungkapkan.<br><br>
+										Dan ternyata, Nada & Hadid sebelumnya kuliah di satu almamater dan jurusan yang sama di Politeknik Negeri Bandung, sehingga membuat kami tambah akrab.
 									</p>
 								</div>
 							</div>
@@ -312,15 +355,15 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Terjalinnya Ikatan</h3>
-									<span class="date">09 May 2020</span>
+									<h3 class="timeline-title">Terjalinnya Hubungan</h3>
+									<span class="date">09 Mei 2020</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Sejak mereka hilang komunikasi untuk beberapa waktu, mereka kembali berhubungan via instagram di masa pandemi!
-										Setelah itu mereka berhubungan dengan intense, chatting sepanjang malam, dan sesekali video call.
-										Pada awalnya Hadid ingin bertemu Nada dahulu, sebelum ia memutuskan untuk menyampaikan perasaannya. Tapi karena pandemi,
-										hal itu tidak dapat dilakukan. Khawatir jika menunggu terlalu lama, kesempatan akan hilang, Hadid menyatakan perasaannya pada Nada.
+										Setelah Nada pindah kantor, kami lost contact selama hampir 1 tahun. Ketika masa pandemi berlangsung,  kami mulai membangun komunikasi lagi via instagram.
+										Setelah itu kami berhubungan dengan intens hingga saling mengenal lebih jauh satu sama lain.<br><br>
+										Pada awalnya Hadid ingin bertemu Nada dahulu, sebelum ia memutuskan untuk menyampaikan perasaannya. Tetapi karena pandemi,
+										hal itu tidak dapat dilakukan. Khawatir jika menunggu terlalu lama kesempatan akan hilang, akhirnya Hadid menyatakan perasaannya pada Nada secara virtual.
 										Dan Nada mengatakan "Yes!" Yeayy..
 									</p>
 								</div>
@@ -331,13 +374,13 @@
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Hari Tunangan</h3>
-									<span class="date">12 December 2020</span>
+									<span class="date">12 Desember 2020</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-										Walaupun hubungan mereka belum terlalu panjang, tapi mereka yakin untuk melanjutkan hubungan mereka ke level yang lebih serius.
-										Hadid memutuskan untuk datang ke Orang Tua Nada untuk memohon izin agar menikahi Nada.
-										Mereka akhirnya bertunangan pada 12 Desember 2020
+										Walaupun hubungan kami belum terlalu lama, tapi kami yakin untuk melanjutkan hubungan ke jenjang yang lebih serius.
+										Hadid memutuskan mendatangi orang tua Nada untuk memohon izin untuk melamar Nada.
+										Kami akhirnya bertunangan pada 12-12-2020.
 									</p>
 								</div>
 							</div>
@@ -346,12 +389,12 @@
 							<div class="timeline-badge" style="background-image:url(assets/images/love.png);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Hari Besar</h3>
-									<span class="date">13 November 2021</span>
+									<h3 class="timeline-title">Hari Pernikahan</h3>
+									<span class="date">12 November 2021</span>
 								</div>
 								<div class="timeline-body">
-									<p>Mereka memilih tanggal yang indah, Jumat, 12-11-21 untuk hari Akad mereka.
-										Dan Resepsi akan digelar pada esok harinya, Sabtu, 13 November 2021
+									<p>Nada dan Hadid memilih tanggal dan hari yang indah, Jumat, 12-11-21 sebagai hari untuk mengikat janji suci di hadapan Allah SWT dan keluarga serta sahabat tercinta. 
+										Dan Resepsi akan digelar pada esok harinya, Sabtu, 13 November 2021.
 									</p>
 								</div>
 							</div>
@@ -656,15 +699,17 @@
 		<div class="modal-dialog modal-dialog-scrollable" role="document">
 			<div class="modal-content">
 			<div class="modal-header" style="border-bottom: 0 none;">
-				<h2 style='text-align: center; font-weight: bold; color: #F14E95; font-size: 60px; font-family: "Sacramento", Arial, serif; margin: 0px;' id="welcomeModalTitle">
-					Selamat Datang
+				<h2 style='text-align: center; font-weight: bold; color: #F14E95; font-size: 30px; font-family: "Sacramento", Arial, serif; margin: 0px;' id="welcomeModalTitle">
+					Undangan Pernikahan<br>&nbsp;Nada & Hadid
 				</h2>
 			</div>
 			<div class="modal-body" style="text-align: center;">
-				Dear <?= $guest_name ?>, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di acara pernikahan kami.
+				Kepada Yth. Bapak/Ibu/Saudara/i <br>
+					<b><?= $guest_name ?></b> <br>
+			
 			</div>
 			<div class="modal-footer" style="text-align: center; border-top: 0 none;">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Lanjut</button>
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Buka Undangan</button>
 			</div>
 			</div>
 		</div>
