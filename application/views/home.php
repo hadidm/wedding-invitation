@@ -146,7 +146,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Bismillahirrahmanirrahim</h2>
+					<h2 style="font-size: 35px">Bismillahirrahmanirrahim</h2>
 					<!-- <h3>November 28th, 2016 New York, USA</h3> -->
 					<p>Dengan memohon rahmat dan ridho Allah SWT beserta segenap kerendahan hati, kami bermaksud mengundang Bapak/Ibu/Saudara/i dalam acara pernikahan putra-putri kami,</p>
 				</div>
