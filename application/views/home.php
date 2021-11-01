@@ -102,10 +102,10 @@
 						<li class="active"><a href="#fh5co-header">Beranda</a></li>
 						<li><a href="#fh5co-couple">Mempelai</a></li>
 						<li><a href="#fh5co-event">Acara</a></li>
-						<li><a href="#fh5co-couple-story">Kisah</a></li>
+						<li><a href="#fh5co-couple-story">Kisah Kami</a></li>
 						<li><a href="#fh5co-gallery">Galeri</a></li>
-						<li><a href="#fh5co-testimonial">Testimonial</a></li>
-						<li><a href="#fh5co-started">Hadiah</a></li>
+						<li><a href="#fh5co-testimonial">Ucapan</a></li>
+						<li><a href="#fh5co-started">Kado Digital</a></li>
 					</ul>
 				</div>
 			</div>
@@ -121,9 +121,20 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Nada &amp; Hadid</h1>
-							<h2>We are Getting Married</h2>
+							<h2>Menuju Hari Bahagia</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm" style="pointer-events: none; cursor: default;">Simpan Tanggal</a></p>
+							<?php if ($evt_sess_id === '1') { ?>
+								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T030000Z/20211113T040000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia" 
+								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
+							<?php } else if ($evt_sess_id === '2') { ?>
+								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T040000Z/20211113T050000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia"
+								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
+							<?php } else if ($evt_sess_id === '3') { ?>
+								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T060000Z/20211113T070000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia" 
+								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
+							<?php } else { ?>
+								<p><a href="#" class="btn btn-default btn-sm">Simpan Tanggal</a></p>
+							<?php } ?>
 						</div>
 					</div>
 				</div>
@@ -181,13 +192,12 @@
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
-						    	<?php 
+						    <?php 
 								if ($invit_type != "hadir") {
 							?>
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box" style="min-height: 380px;">
+								<div class="event-wrap animate-box" style="min-height: 490px;">
 									<h3>AKAD NIKAH</h3>
-									<span>hanya keluarga</span>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>16:00 - 17:30</span>
@@ -202,7 +212,7 @@
 										<b><i>Masjid Agung At-Tin</i></b>
 									</p>
 									<p>Makasar, Jakarta Timur</p>
-									<p style="font-size: 12px; margin-bottom: 0px">
+									<p style="font-size: 12px;">
 										**Sehubungan dengan keterbatasan kondisi pandemi Covid-19 saat ini, 
 										kami memohon maaf tidak dapat mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami secara langsung. 
 										Namun kami berharap Bapak/Ibu/Saudara/i berkenan memberikan doa restu agar putra-putri kami menjadi keluarga yang sakinnah, mawaddah, warahmah. Aamiin. 
@@ -210,7 +220,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box" style="min-height: 380px;">
+								<div class="event-wrap animate-box" style="min-height: 490px;">
 									<h3>Siaran Langsung</h3>
 									<p>
 									<iframe width="250" height="170" src="https://www.youtube.com/embed/b1zw3eB_7ek" frameborder="0" allowfullscreen></iframe>
@@ -513,32 +523,46 @@
 				
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Sampaikan salammu pada kami :)</h2>
+						<h2>Ucapan dan Doa</h2>
+						<span>Berikan ucapan dan doa terbaik untuk kedua mempelai</span>
 					</div>
 				</div>
 				<div class="row animate-box">
 					<div class="col-md-10 col-md-offset-1">
 						<form class="form-inline">
-							<div class="row col-md-12 col-sm-12">
-								<div class="form-group col-md-6 col-sm-6" style="padding-left: 0px">
+							<div class="row col-md-12 col-sm-12">								
+								<?php 
+									if ($invit_type === "hadir") {
+								?>
+								<div class="form-group col-md-6 col-sm-6">
 									<label for="invit-name" class="sr-only">Nama</label>
-									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Your Name">
+									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Nama">
 								</div>
 								<div class="form-group col-md-6 col-sm-6" style="text-align: right">
 									<label for="invit-attend" class="sr-only">Kehadiran</label>
 									
 									<select class="form-control custom-select my-1 mr-sm-2" id="invit-attend" style="width: 100%">
 										<option value="attend" selected>Saya akan datang</option>
-										<option value="notsure">Hmm semoga kami bisa datang</option>
-										<option value="noattend">Maaf, mungkin saya belum bisa datang, tapi saya selalu mendoakan kalian</option>
+										<option value="notsure">Masih belum pasti datang</option>
+										<option value="noattend">Tidak bisa datang</option>
 									</select>
 								</div>
+								<?php
+									} else { 
+								?>
+								<div class="form-group col-md-12 col-sm-12">
+									<label for="invit-name" class="sr-only">Nama</label>
+									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Nama">
+								</div>
+								<?php
+									}
+								?>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
 								<div class="form-group">
 									<label for="greeting" class="sr-only">Salam</label>
 									<textarea type="greeting" class="form-control" id="invit-testi" 
-										placeholder="I'm happy to see you standing there bud" rows="4" cols="80"></textarea>
+										placeholder="Selamat menempuh hidup baru..." rows="4" cols="80"></textarea>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
@@ -592,8 +616,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Kado Anda Untuk Kami</h2>
-					<p>Doamu adalah yang kami nantikan, tapi kamu juga bisa berbagi hadiah untuk kami jika kamu mau :)</p>
+					<h2>Kado Digital</h2>
+					<p>Kami juga menerima kado dalam bentuk digital yang dapat diberikan kepada kami melalui</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -709,7 +733,7 @@
 			
 			</div>
 			<div class="modal-footer" style="text-align: center; border-top: 0 none;">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Buka Undangan</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Buka Undangan</button>
 			</div>
 			</div>
 		</div>
