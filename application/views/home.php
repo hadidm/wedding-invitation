@@ -560,10 +560,10 @@
 				</div>
 			</div>
 			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-4">
+				<div style="text-align: center; justify-content: center; display: flex;">
 					<img src="<?= asset_url() ?>/images/NADA-BCAQR-MBCA-CROP.jpeg" style="max-height: 550px" class="img-responsive">
 				</div>
-				<div class="col-md-5 col-md-offset-4" style="justify-content: center; text-align: center; color: #fff;">
+				<div style="justify-content: center; text-align: center; display: flex; color: #fff;">
 					<p>
 						<span class='pointer' onclick="navigator.clipboard.writeText('1650359492');">BCA - 1650359492&nbsp;<i class="icon-copy"></i></span>
 						<br>
