@@ -213,7 +213,7 @@
 								<div class="event-wrap animate-box" style="min-height: 380px;">
 									<h3>Siaran Langsung</h3>
 									<p>
-									<iframe width="370" height="170" src="https://www.youtube.com/embed/b1zw3eB_7ek" frameborder="0" allowfullscreen></iframe>
+									<iframe width="250" height="170" src="https://www.youtube.com/embed/b1zw3eB_7ek" frameborder="0" allowfullscreen></iframe>
 									</p>
 									<p style="font-size: 12px;">Kami berharap Bapak/Ibu/Saudara/i berkenan turut menyaksikan pernikahan putra-putri kami dari jarak jauh dengan bergabung melalui siaran langsung. Silahkan klik tombol di bawah ini:</p>
 									<p style="font-size: x-large; margin-bottom: 0px;">
@@ -758,7 +758,7 @@
 			$('#welcomeModal').on('hidden.bs.modal', function() {
 				var aud = document.createElement("AUDIO");
 				aud.setAttribute('id', 'backsound')
-				aud.src = "<?= asset_url() ?>/media/backsound.mp3";
+				aud.src = "<?= asset_url() ?>/media/backsound-lee-hi-only.mp3";
 				aud.loop = true;
 				aud.play();
 
