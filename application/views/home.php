@@ -123,18 +123,20 @@
 							<h1>Nada &amp; Hadid</h1>
 							<h2>Menuju Hari Bahagia</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<?php if ($evt_sess_id === '1') { ?>
-								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T030000Z/20211113T040000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia" 
-								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
-							<?php } else if ($evt_sess_id === '2') { ?>
-								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T040000Z/20211113T050000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia"
-								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
-							<?php } else if ($evt_sess_id === '3') { ?>
-								<p><a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T060000Z/20211113T070000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia" 
-								class="btn btn-default btn-sm" target="_blank">Simpan Tanggal</a></p>
-							<?php } else { ?>
-								<p><a href="#" class="btn btn-default btn-sm">Simpan Tanggal</a></p>
-							<?php } ?>
+							<?php
+								$hrefCal = '#'; 
+								if ($evt_sess_id === '1') {
+									$hrefCal = "https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T030000Z/20211113T040000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+1&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia";
+								} else if ($evt_sess_id === '2') {
+									$hrefCal = "https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T040000Z/20211113T050000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+2&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia";
+								} else if ($evt_sess_id === '3') {
+									$hrefCal = "https://calendar.google.com/calendar/u/0/r/eventedit?text=Resepsi+Pernikahan+Nada+Hadid&dates=20211113T060000Z/20211113T070000Z&details=Resepsi+Pernikahan+Nada+dan+Hadid+Sesi+3&location=Caping+Gunung,+Area+Tmii,+Ceger,+Kec.+Cipayung,+Kota+Jakarta+Timur,+Daerah+Khusus+Ibukota+Jakarta+13820,+Indonesia";
+								}
+							?>
+							<p><a href="<?= $hrefCal ?>" class="btn btn-default btn-sm" 
+								<?= $hrefCal === "#" ? "style='pointer-events: none; cursor: default;'" : "target='_blank'" ?>>
+								Simpan Tanggal
+							</a></p>
 						</div>
 					</div>
 				</div>
