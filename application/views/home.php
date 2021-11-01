@@ -399,12 +399,6 @@
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_88.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_1.jpg); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_2.jpg); ">
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/S_3.jpg); ">
-						</li>
 
 
 
