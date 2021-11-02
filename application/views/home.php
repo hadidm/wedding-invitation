@@ -105,7 +105,9 @@
 						<li><a href="#fh5co-couple-story">Kisah Kami</a></li>
 						<li><a href="#fh5co-gallery">Galeri</a></li>
 						<li><a href="#fh5co-testimonial">Ucapan</a></li>
-						<li><a href="#fh5co-started">Kado Digital</a></li>
+						<?php if ($mode !== 'noqr') { ?>
+							<li><a href="#fh5co-started">Kado Digital</a></li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>
@@ -608,6 +610,8 @@
 		</div>
 	</div>
 
+	<?php if ($mode !== 'noqr') { ?>
+
 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
 		<!-- <audio autoplay loop id="backsound">
 			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
@@ -636,6 +640,8 @@
 			</div>
 		</div>
 	</div>
+
+	<?php } ?>
 
 	<!-- <div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">

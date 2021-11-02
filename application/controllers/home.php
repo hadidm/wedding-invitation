@@ -34,6 +34,7 @@ class Home extends CI_Controller {
 		$data['testi'] = $this->model->select('testimonial', $optSelect);
 		
 		$to = $this->input->get('to');
+		$data['mode'] = $this->input->get('mode');
 		
 		$sql = "
 		select g.guest_name, g.related_with, g.invit_type, g.evt_sess_id, s.from_hours, s.to_hours
