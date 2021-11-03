@@ -158,7 +158,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="<?= asset_url() ?>/images/bridetb.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
+						<img src="<?= asset_url() ?>/images/brideee.png" alt="groom" class="img-responsive" style="object-fit: cover">
 					</div>
 					<div class="desc-groom">
 						<h3>Nada Dwi Nurafifah</h3>
@@ -539,8 +539,9 @@
 									if ($invit_type === "hadir") {
 								?>
 								<div class="form-group col-md-6 col-sm-6">
-									<label for="invit-name" class="sr-only">Nama</label>
+									<label for="invit-name" class="sr-only">Nama *</label>
 									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Nama">
+									<span class="help-block" id='name-error' style="display:none">Wajib Diisi</span>
 								</div>
 								<div class="form-group col-md-6 col-sm-6" style="text-align: right">
 									<label for="invit-attend" class="sr-only">Kehadiran</label>
@@ -557,6 +558,7 @@
 								<div class="form-group col-md-12 col-sm-12">
 									<label for="invit-name" class="sr-only">Nama</label>
 									<input type="Name" class="form-control" id="invit-name" style="width: 100%" placeholder="Nama">
+									<span class="help-block" id='name-error' style="display:none">Wajib Diisi</span>
 								</div>
 								<?php
 									}
@@ -564,9 +566,10 @@
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
 								<div class="form-group">
-									<label for="greeting" class="sr-only">Salam</label>
+									<label for="greeting" class="sr-only">Salam *</label>
 									<textarea type="greeting" class="form-control" id="invit-testi" 
 										placeholder="Selamat menempuh hidup baru..." rows="4" cols="80"></textarea>
+									<span class="help-block" id='testi-error' style="display:none">Wajib Diisi</span>
 								</div>
 							</div>
 							<div class="row col-md-12 col-sm-12" style="margin-top: 50px;">
@@ -820,6 +823,29 @@
 			$("#btn_testi").click(function(e) {
 				e.preventDefault();
 
+				var isValid = true;
+				if ($('#invit-name').val() == '') {
+					isValid = false;
+					$('#name-error').show();
+					$('#invit-name').parent('.form-group').addClass('has-error')
+				} else {
+					isValid = true;
+					$('#name-error').hide();
+					$('#invit-name').parent('.form-group').removeClass('has-error')
+				}
+				
+				if ($('#invit-testi').val() == '') {
+					isValid = false;
+					$('#testi-error').show();
+					$('#invit-testi').parent('.form-group').addClass('has-error')
+				} else {
+					isValid = true;
+					$('#testi-error').hide();
+					$('#invit-testi').parent('.form-group').removeClass('has-error')
+				}
+
+				if (!isValid) return;
+
 				$.ajax({
 					type: "POST",
 					url: "<?= base_url("/home/testimonial") ?>",
@@ -835,7 +861,11 @@
 							$('#invit-name').val('');
 							$('#invit-attend').val('attend');
 							$('#invit-testi').val('');
-							
+							$('#name-error').hide();
+							$('#testi-error').hide();
+							$('#invit-testi').parent('.form-group').removeClass('has-error')
+							$('#invit-name').parent('.form-group').removeClass('has-error')
+
 							// destroy carousel
 							$('.owl-carousel-fullwidth').trigger('destroy.owl.carousel').removeClass('owl-carousel owl-loaded');
 							$('.owl-carousel-fullwidth').find('.owl-stage-outer').children().unwrap();
