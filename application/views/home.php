@@ -649,7 +649,7 @@
 		<?php } ?>
 
 
-<div id="fh5co-sampai" class="fh5co-bg" style="background-image:url(assets/images/eg/E_2.jpg);">
+<div id="fh5co-sampai" class="fh5co-bg fh5co-cover" style="background-image:url(assets/images/eg/E_2.jpg);">
 		<!-- <audio autoplay loop id="backsound">
 			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
 			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
@@ -665,7 +665,7 @@
 				</div>
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 				   
-					<h2 style='font-size: 40px;color: #F14E95;'><b><br><br>Sampai Jumpa <br>di Hari Bahagia Kami</b></h2>
+					<h2><br>Sampai Jumpa <br>di Hari Bahagia Kami</h2>
 					<p>&nbsp;</p>
 				</div>
 				
