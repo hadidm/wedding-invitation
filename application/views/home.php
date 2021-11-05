@@ -158,7 +158,7 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="<?= asset_url() ?>/images/brideee.png" alt="groom" class="img-responsive" style="object-fit: cover">
+						<img src="<?= asset_url() ?>/images/bridebt.jpg" alt="groom" class="img-responsive" style="object-fit: cover">
 					</div>
 					<div class="desc-groom">
 						<h3>Nada Dwi Nurafifah</h3>
@@ -188,7 +188,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Acara Spesial Kami</span>
+					<span>Our Special Events</span>
 					<h2>Detail Acara</h2>
 				</div>
 			</div>
@@ -438,23 +438,26 @@
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_3.jpg); "> 
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_4.jpg); ">
-						</li>
+					
+						
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_6.jpg); ">
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_9.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_1.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/brii.jpg); ">
+						 </li>   
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/QQ2.jpg); ">
 						</li>
+						
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_3.jpg); ">
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_4.jpg); ">
 						</li>
 						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_5.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_6.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/K_12.jpg); ">
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_88.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(assets/images/eg/B_6.jpg); ">
 						</li>
 
 
@@ -615,7 +618,7 @@
 
 	<?php if ($mode !== 'noqr') { ?>
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/img_bg_4.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(assets/images/pink2.jpg);">
 		<!-- <audio autoplay loop id="backsound">
 			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
 			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
@@ -635,16 +638,41 @@
 				</div>
 				<div style="justify-content: center; text-align: center; display: flex; color: #fff;">
 					<p>
-						<span class='pointer' onclick="navigator.clipboard.writeText('1650359492');">BCA - 1650359492&nbsp;<i class="icon-copy"></i></span>
+						<span class='pointer' onclick="navigator.clipboard.writeText('1650359492');" style='font-size: 20px;color: #FFFFFF'><br><b>BCA - 1650359492</b>&nbsp;<i class="icon-copy"></i></span>
 						<br>
-						a.n Nada Dwi Nurafifah
+						<b>a.n Nada Dwi Nurafifah</b>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
+		<?php } ?>
 
-	<?php } ?>
+
+<div id="fh5co-sampai" class="fh5co-bg" style="background-image:url(assets/images/eg/E_2.jpg);">
+		<!-- <audio autoplay loop id="backsound">
+			<source src="<?= asset_url() ?>/media/backsound.mp3" type="audio/mpeg">
+			<source src="<?= asset_url() ?>/media/backsound.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio> -->
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				    <br>
+					<h2 >&nbsp;</h2>
+					<p>&nbsp;<br></p>
+				</div>
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				   
+					<h2 style='font-size: 40px;color: #F14E95;'><b><br><br>Sampai Jumpa <br>di Hari Bahagia Kami</b></h2>
+					<p>&nbsp;</p>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
 
 	<!-- <div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
